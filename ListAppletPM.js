@@ -18,6 +18,7 @@ if (typeof(SiebelAppFacade.SummaryPM) === "undefined") {
                 scope: this
             });
         };
+		function CheckGit(){};
 
         function OnFieldChange(control, value) {
             if (control.GetName() === "EmailAddress") {
